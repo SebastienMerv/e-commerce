@@ -1,0 +1,89 @@
+.tout {
+
+    margin-left: 280px;
+    height: 101px;
+    display: flex;
+}
+
+h2 {
+    align-self: flex-end;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: 'Mogra';
+    border-bottom: 2px solid;
+}
+
+body {
+    background-color: #C7DCF0;
+    height: 100vh;
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 180px;
+    font-family: 'Mogra';
+}
+
+.informations {
+    background-color: white;
+    margin: 280px;
+    margin-top: 80px;
+    border-radius: 8px;
+    height: 80%;
+    padding: 10px;
+}
+
+input {
+    font-size: 30px;
+    border-radius: 8px;
+}
+.input {
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: 'Outfit';
+}
+
+.img {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 150px;
+}
+
+.upload {
+    background-color: #0081F8;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 20px;
+    color: white;
+    font-family: 'Oufit';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.uploader {
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    background-color: #0081F8;
+    border: none;
+    margin-top: 50px;
+}
+
+.submit {
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}

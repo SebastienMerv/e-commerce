@@ -1,0 +1,163 @@
+@media screen and (max-width: 1048px){
+    .center {
+        background-color: white;
+        padding: 10px;
+        margin: 40px;
+        border-radius: 5px;
+        margin-top: 50px;
+        justify-content: center;
+        
+    }
+    .center .title {
+        font-family: 'Mogra', serif;
+        margin-bottom: 140px;
+    }
+    input {
+        display: block;
+        text-align: center;
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 80px;
+        width: 90%;
+        outline-color: orange;
+        background-color: white;
+    }
+    input::placeholder {
+        font-family: 'Outfit';
+    }
+
+    .inscription {
+        justify-self: center;
+        background-color: #0081F8;
+        color: white;
+    }
+
+
+}
+.erreur {
+    color: red;
+}
+@media screen and (min-width: 1048px){
+    .center {
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 800px;
+        margin: auto;
+        margin-top: 40px;
+        height: 800px;
+    }
+    .center .title {
+        font-family: 'Mogra', serif;
+        margin-bottom: 140px;
+        font-size: 50px;
+        margin-top: 40px;
+        /* transform: translateX(-50%); */
+    }
+    input {
+        display: block;
+        text-align: center;
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 80px;
+        width: 100%;
+        /* transform: translateX(-50%); */
+        outline-color: orange;
+        background-color: white;
+        font-size: 30px;
+    }
+    input::placeholder {
+        font-family: 'Outfit';
+    }
+    form {
+        width: 500px;
+    }
+    .connexion {
+        background-color: #0081F8;
+        width: 100%;
+        padding: 15px;
+        border-radius:5px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .account {
+        font-family: 'Outfit';
+        color:#0081F8;
+        text-decoration: underline;
+    }
+    .inscription {
+        justify-self: center;
+        background-color: #0081F8;
+        color: white;
+    }
+}
+.inscription {
+  cursor: pointer;
+}
+
+.notifications-container {
+    width: 320px;
+    height: auto;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-shrink-0 {
+    flex-shrink: 0;
+  }
+  
+  .error-alert {
+    border-radius: 0.375rem;
+    padding: 1rem;
+    background-color: rgb(254 242 242);
+  }
+  
+  .error-svg {
+    color: #F87171;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .error-prompt-heading {
+    color: #991B1B;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .error-prompt-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.25rem;
+  }
+  
+  .error-prompt-wrap {
+    margin-top: 0.5rem;
+    color: #B91C1C;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .error-prompt-list {
+    padding-left: 1.25rem;
+    margin-top: 0.25rem;
+    list-style-type: disc;
+  }
+  .no {
+    color: #991B1B;
+    text-decoration: underline;
+  }

@@ -1,0 +1,66 @@
+body {
+    background-color: #C7DCF0;
+    height: 100vh;
+}
+
+.tout {
+
+    margin-left: 280px;
+    height: 101px;
+    display: flex;
+}
+.aqua {
+    background-color: #C7DCF0;
+    margin-left: 260px;
+    height: 800px;
+}
+h2 {
+    align-self: flex-end;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: 'Mogra';
+    border-bottom: 2px solid;
+}
+
+.bienvenue {
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: white;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 250px;
+}
+.logs {
+    margin-left: 180px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: white;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 250px;
+    justify-content: space-around;
+}
+.title2 {
+    font-size: 30px;
+    font-family: 'Besley';
+}
+.carres {
+    display: flex;
+}
+
+.log {
+    font-size: 20px;
+}
+
+h6 {
+    font-weight:600;
+}
+

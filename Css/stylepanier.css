@@ -1,0 +1,242 @@
+@media screen and (max-width: 1048px) {
+
+    .cart .title {
+        font-size: 25px;
+        font-family: 'Besley', serif;
+        margin-left: 10px;
+    }
+
+    .cart {
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .cart .img {
+        width: 150px;;
+    }
+    .body {
+        display: flex;
+        align-content: center;
+    }
+    .txt {
+        align-self: center;
+        font-family: 'Besley', serif;
+    }
+    .BuyNow {
+        margin-top: 50px;
+        background-color: #0081F8;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+    }
+    .delivry {
+        background-color: white;
+        margin: 20px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .delivry .title {
+        font-size: 25px;
+        font-family: 'Besley', serif;
+        margin-left: 10px;
+    }
+    .delivry .sub {
+        display: block;
+        margin-top: 50px;
+        margin-left: 10px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-bottom:15px;
+    }
+    .delivrymode {
+        border: 2px solid;
+        border-radius:5px;
+        margin-left: 10px;
+        padding: 10px;
+        margin-bottom: 5px;
+        cursor: default;
+    }
+    .delivry .BuyNow {
+        display: block;
+        margin-top: 50px;
+        margin: 5px;
+        background-color: #0081F8;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        margin-top: 20px;
+        display:flex;
+        align-content: center;
+        justify-content: center;
+    }
+    }
+@media screen and (min-width: 1048px) {
+    .cart .title {
+        font-size: 25px;
+        font-family: 'Besley', serif;
+        margin-left: 10px;
+    }
+
+    .cart {
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        width: 50%;
+        float: left;
+    }
+    .cart .img {
+        width: 150px;;
+    }
+    .body {
+        display: flex;
+        align-content: center;
+    }
+    .txt {
+        align-self: center;
+        font-family: 'Besley', serif;
+    }
+    .BuyNow {
+        margin-top: 50px;
+        background-color: #0081F8;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+    }
+    .delivry {
+        background-color: white;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        width: 30%;
+        float: right;
+        margin-top: 20px;
+    }
+    .select {
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .delivry .title {
+        font-size: 25px;
+        font-family: 'Besley', serif;
+        margin-left: 10px;
+    }
+    .delivry .sub {
+        display: block;
+        margin-top: 50px;
+        margin-left: 10px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-bottom:15px;
+    }
+    .delivrymode {
+        border: 2px solid;
+        border-radius:5px;
+        margin-left: 10px;
+        padding: 10px;
+        margin-bottom: 5px;
+        cursor: default;
+    }
+    .delivry .BuyNow {
+        display: block;
+        margin-top: 50px;
+        margin: 5px;
+        background-color: #0081F8;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        margin-top: 20px;
+        display:flex;
+        align-content: center;
+        justify-content: center;
+
+    }
+    table {
+        width: 100%;
+    }
+    img {
+        width: 150px;
+    }
+    td {
+        font-size: 30px;
+    }
+
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+   }
+   
+   button, button span {
+    transition: 200ms;
+   }
+   
+   button .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+   }
+   
+   button .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   button svg {
+    width: 15px;
+    fill: #eee;
+   }
+   
+   button:hover {
+    background: #ff3636;
+   }
+   
+   button:hover .text {
+    color: transparent;
+   }
+   
+   button:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+   }
+   
+   button:focus {
+    outline: none;
+   }
+   
+   button:active .icon svg {
+    transform: scale(0.8);
+   }
+
+
+   .modifier {
+    background-color: #0081F8;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Ouftit';
+    padding: 20px;
+    width: 200px;
+}
+
+.BuyNow {
+    cursor: pointer;
+}

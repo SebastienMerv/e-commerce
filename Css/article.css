@@ -1,0 +1,134 @@
+@media screen and (min-width: 1048px) {
+
+    .article {
+        background-color: white;
+        padding: 20px;
+        margin: 200px;
+        /* float: left; */
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        justify-content: center;
+        align-content: space-between;
+        width: 600px;
+    }
+    .article .img {
+        height: 350px;
+    }
+    .article .title {
+       font-size: 40px; 
+    }
+    .article .price {
+        font-size: 30px;
+    }
+    .article .AddToCartText {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        color: black;
+        align-content: center;
+        border: 2px solid;
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+    .article .AddToCart {
+        margin-top: 0px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        align-content: center;
+        font-family: 'Outfit', sans-serif;
+        
+    }
+    .Buy {
+        margin-top: 40px;
+        background-color: #0081F8;
+        padding: 10px;
+        border-radius: 5px;
+        align-content: center;
+        font-family: 'Outfit', sans-serif;
+    }
+    .Buy .BuyText {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .sizes {
+        margin-top: 88px;
+
+    }
+
+    .size {
+        padding: 10px;
+        background-color: grey;
+        border-radius: 5px;
+        font-size: 30px;
+
+
+    }
+}
+
+@media screen and (max-width: 1048px) {
+    .article {
+        background-color: white;
+        padding: 20px;
+        padding: 20px;
+        margin: 20px;
+    }
+    .article .img {
+        height: 300px;
+    }
+    .article .title {
+       font-size: 40px; 
+    }
+    .article .price {
+        font-size: 30px;
+    }
+    .article .AddToCartText {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        color: black;
+        cursor: pointer;
+        
+    }
+    .article .AddToCart {
+        margin: 10px;
+        margin-top: 0px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        align-content: center;
+        font-family: 'Outfit', sans-serif;
+        border: 2px solid;
+        
+    }
+    .article .Buy {
+        margin-top: 40px;
+        background-color: #0081F8;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: 'Outfit', sans-serif;
+        margin: 10px;
+    }
+    .Buy .BuyText {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .sizes {
+        margin-bottom: 20px;
+    }
+
+    .size {
+        padding: 10px;
+        background-color: grey;
+        border-radius: 5px;
+        font-size: 30px;
+
+
+    }
+}
